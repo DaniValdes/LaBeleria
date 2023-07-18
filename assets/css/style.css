@@ -1,6 +1,26 @@
-.container-inner {
-object-fit: cover;
-width: 100%;
-height: 250px;
+* {
+    font-family: 'Cairo', sans-serif;
+
 }
 
+.navbar {
+    z-index: 1000;
+}
+
+.font-cormorant {
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.carousel-indicators button {
+    width: 31px !important; 
+    height: 31px !important;
+    margin: 20px !important;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  .carousel-inner img {
+    height: 60vh;
+    object-fit: cover;
+  }
+  
