@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>LaBelería</title>
   <!-- CSS -->
 <link rel="stylesheet" href="./assets/css/style.css">
 <!-- bootstrap -->
@@ -11,7 +11,10 @@
 <!-- google fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Homenaje&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ <!--   FONTAWESOME -->
+ <script src="https://kit.fontawesome.com/5298658fa2.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
   
@@ -23,14 +26,13 @@
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
-            <a class="nav-link " href="#productos" 
-            >PRODUCTOS</a>
+            <a class="nav-link " href="#productos" style="font-size: 24px; color:#FBEEE3; margin-right: 100px; font-style: bold;">PRODUCTOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#catalogo">CATÁLOGO</a>
+            <a class="nav-link" href="#catalogo" style="font-size: 24px; color:#FBEEE3; margin-right: 100px;">CATÁLOGO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">CONTACTO</a>
+            <a class="nav-link" href="#contacto" style="font-size: 24px; color:#FBEEE3; margin-right: 100px;">CONTACTO</a>
           </li>
         </ul>
       </div>
@@ -67,10 +69,106 @@
 </div>
 
 
+<div class="container d-flex justify-content-center"  style="height: 20vh; margin-top: 10%; margin-bottom: 10%;">
+  <div class="row align-items-center">
+    <div class="col text-end pe-5" style="border-right: solid 4px #E1AA1C;"><h1>La Belería</h1></div>
+    <div class="col ps-5" style="max-width: 548px;">
+      <p style="line-height: 30px; color: ;">Lorem ipsum dolor sit amet, consectetur 
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+      aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+<section>
+  <h1 class="text-center" style="line-height: 120px;">PASTELES LABELERÍA</h1>
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner row w-100 mx-auto" role="listbox">
+      <div class="carousel-item col-4 active">
+        <img class="img-fluid mx-auto d-block" src="https://source.unsplash.com/250x250/?cake1" alt="slide 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>NOMBRE</h5>
+          <p>DESCRIPCION</p>
+          <button type="button" class="btn btn-primary">
+            Ver Más <span class="fas fa-arrow-right"></span>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item col-4">
+        <img class="img-fluid mx-auto d-block" src="https://source.unsplash.com/250x250/?cake2" alt="slide 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>NOMBRE</h5>
+          <p>DESCRIPCION</p>
+          <button type="button" class="btn btn-primary">
+            Ver Más <span class="fas fa-arrow-right"></span>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item col-4">
+        <img class="img-fluid mx-auto d-block" src="https://source.unsplash.com/250x250/?cake3" alt="slide 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>NOMBRE</h5>
+          <p>DESCRIPCION</p>
+          <button type="button" class="btn btn-primary">
+            Ver Más <span class="fas fa-arrow-right"></span>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item col-4">
+        <img class="img-fluid mx-auto d-block" src="https://source.unsplash.com/250x250/?cake4" alt="slide 4">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>NOMBRE</h5>
+          <p>DESCRIPCION</p>
+          <button type="button" class="btn btn-primary">
+            Ver Más <span class="fas fa-arrow-right"></span>
+          </button>
+        </div>
+      </div>
+      <!-- Añade más elementos si es necesario -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+
+</section>
+
 
 
 
   <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+    
+    <script>
+      $('#carouselExample').on('slide.bs.carousel', function (e) {
+          var $e = $(e.relatedTarget);
+          var idx = $e.index();
+          var itemsPerSlide = 3;
+          var totalItems = $('.carousel-item').length;
+      
+          if (idx >= totalItems-(itemsPerSlide-1)) {
+              var it = itemsPerSlide - (totalItems - idx);
+              for (var i=0; i<it; i++) {
+                  // append slides to end
+                  if (e.direction=="left") {
+                      $('.carousel-item').eq(i).appendTo('.carousel-inner');
+                  }
+                  else {
+                      $('.carousel-item').eq(0).appendTo('.carousel-inner');
+                  }
+              }
+          }
+      });
+      </script>
+  </body>
+
 </html>

@@ -1,5 +1,7 @@
 * {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Homenaje', sans-serif;
+    color: #582E07;
+
 
 }
 
@@ -17,6 +19,7 @@
     margin: 20px !important;
     padding: 15px;
     border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px #00000040;
   }
   
   .carousel-inner img {
@@ -24,3 +27,20 @@
     object-fit: cover;
   }
   
+
+  .carousel-indicators .active {
+    background-color: #E1AA1C !important;
+  }
+  
+  h1 {
+    font-size: 64px !important;
+    font-weight: 600 !important;
+  }
+
+  h2 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 16px;
+  }
