@@ -97,3 +97,12 @@
   .navbar.scrolled .nav-link {
     color: #FBEEE3 !important;
   }
+
+  .overlay {
+    background-color: rgba(251, 238, 227, 0.7); /* ajusta la opacidad según tus necesidades */
+    color: white;
+    width: 50%; /* establece el ancho del overlay al 80% del contenedor padre */
+    margin: 0 auto; /* centra el overlay horizontalmente en el contenedor padre */
+    height: 200px;
+  }
+  
