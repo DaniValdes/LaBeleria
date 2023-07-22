@@ -1,8 +1,6 @@
 * {
     font-family: 'Homenaje', sans-serif;
     color: #582E07;
-
-
 }
 
 .navbar {
@@ -26,7 +24,6 @@
     height: 60vh;
     object-fit: cover;
   }
-  
 
   .carousel-indicators .active {
     background-color: #E1AA1C !important;
@@ -43,4 +40,60 @@
 
   p {
     font-size: 16px;
+  }
+
+  .navbar .nav-item .nav-link {
+    font-size: 24px;
+    margin-right: 100px;
+}
+
+.nav-link {
+    color: #FBEEE3 !important;
+}
+
+
+  .custom-card {
+    height: 450px !important; /* Cambia esto al alto que desees */
+    border: 4px solid #582E07 !important; /* Cambia "2px" al tamaño del borde que desees y "#ff0000" al color que desees */
+  }
+
+  .custom-button {
+    background-color: #ff0000;
+    border-color: #582E07 !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    top: 10px; /* Cambia esto para mover el botón hacia abajo */
+  }
+  
+  .card-title {
+    background-color: #582E07;
+    color: #FBEEE3 !important;
+  }
+
+  .card {
+    margin: 0 -60px; /* Ajusta el valor según lo que necesites. */
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-image: none !important; /* Elimina las flechas por defecto */
+  }
+  
+  .carousel-control-next::before,
+  .carousel-control-prev::before {
+    content: "‹"; /* Agrega una nueva flecha (puedes usar cualquier otro símbolo o imagen que desees) */
+    color: #582E07; /* Cambia el color aquí */
+    font-size: 70px; /* Cambia el tamaño aquí */
+    display: inline-block;
+  }
+  
+  .carousel-control-next::before {
+    content: "›"; /* Asegúrate de que la flecha "next" apunta en la dirección correcta */
+  }
+  
+  .navbar.scrolled {
+    background-color: #582E07 !important;
+  }
+  
+  .navbar.scrolled .nav-link {
+    color: #FBEEE3 !important;
   }
