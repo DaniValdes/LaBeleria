@@ -106,3 +106,11 @@
     height: 200px;
   }
   
+  .custom-button-ubicacion {
+    background-color: #ff0000;
+    border-color: #E1AA1C !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    top: 10px; /* Cambia esto para mover el botón hacia abajo */
+    border-radius: 0% !important;
+    font-style: bold;
+  }
