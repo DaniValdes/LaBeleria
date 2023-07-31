@@ -114,3 +114,57 @@
     border-radius: 0% !important;
     font-style: bold;
   }
+
+  .custom-button-contacto {
+    background-color: #582E07 !important;
+    border-color: #582E07 !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    top: 10px; /* Cambia esto para mover el botón hacia abajo */
+    border-radius: 0% !important;
+    font-style: bold;
+    color: #FBEEE3 !important;
+  }
+
+  /* HORARIO DE ATENCION */
+  .image-container {
+    display: flex;
+    width: 100%;
+}
+
+.image-left, .image-right {
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 50vh; /* Puedes ajustar este valor según tus necesidades */
+    position: relative;
+}
+
+.image-left {
+    background-image: url(../img/logo_fondo_1.jpg);
+}
+
+.image-right {
+    background-image: url(../img/entrada_labeleria.png);
+}
+
+.title {
+    color: #ffffff; /* Color del texto del título */
+    position: absolute;
+    top: 10%; /* Ajusta estas posiciones según tus necesidades */
+    left: 10%;
+    z-index: 1;
+    background-color: #582E07;
+    margin-left: -100px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.schedule {
+    background-color: rgba(255,255,255,0.6); /* Fondo blanco con opacidad */
+    color: #000000; /* Color del texto */
+    position: absolute;
+    top: 30%; /* Ajusta estas posiciones según tus necesidades */
+    left: 10%;
+    padding: 20px;
+    z-index: 1;
+}
