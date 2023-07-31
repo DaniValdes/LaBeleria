@@ -67,6 +67,8 @@
   .card-title {
     background-color: #582E07;
     color: #FBEEE3 !important;
+    padding-left: 20px;
+    margin-left: -18px;
   }
 
   .card {
