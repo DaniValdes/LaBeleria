@@ -170,3 +170,11 @@
     padding: 20px;
     z-index: 1;
 }
+
+
+/* FOOTER */
+footer {
+  background-color: #582E07;
+  height: 50vh;
+  color: #FBEEE3;
+}
