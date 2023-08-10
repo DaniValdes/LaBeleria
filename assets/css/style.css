@@ -6,6 +6,9 @@
 .navbar {
     z-index: 1000;
 }
+.navbar-brand {
+  max-height: 60px; /* Elimina el relleno alrededor del logo */
+}
 
 .font-cormorant {
     font-family: 'Cormorant Unicase', serif;
