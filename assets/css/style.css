@@ -53,8 +53,9 @@
 
 
   .custom-card {
-    height: 450px !important; /* Cambia esto al alto que desees */
+    height: auto !important; /* Cambia esto al alto que desees */
     border: 4px solid #582E07 !important; /* Cambia "2px" al tamaño del borde que desees y "#ff0000" al color que desees */
+    max-height: 500px;
   }
 
   .custom-button {
@@ -62,6 +63,13 @@
     border-color: #582E07 !important; /* Cambia esto al color que desees */
     position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
     top: 10px; /* Cambia esto para mover el botón hacia abajo */
+  }
+
+  .custom-button-up {
+    background-color: #ff0000;
+    border-color: #582E07 !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    top: -20px !important;  /* Cambia esto para mover el botón hacia abajo */
   }
   
   .card-title {
@@ -169,6 +177,19 @@
     left: 10%;
     padding: 20px;
     z-index: 1;
+}
+
+
+
+
+/* PRODUCTOS */
+.nombre-productos {
+  background-color: #E1AA1C !important
+}
+
+.border-bottom-custom {
+  border-bottom: 2px solid #e1aa1c;
+  width: 100%;
 }
 
 
