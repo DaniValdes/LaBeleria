@@ -192,12 +192,13 @@
 ">
     <h1 class="text-center" style="line-height: 120px;">TORTAS LABELERÍA</h1>
 
-    <div id="carousel-tortas" class="carousel slide" data-ride="carousel">
+    <div id="carousel-tortas" class="container carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="d-flex justify-content-around">
             <div class="card custom-card ms-5" style="width: 18rem;">
-              <img class="card-img-top" src="./assets/img/productos/_30.jpg" alt="Card image cap" style="object-fit: contain;">
+              <img class="card-img-top" src="./assets/img/productos/_30.jpg" alt="Card image cap" 
+              style="object-fit: fill;">
               <div class="card-body">
                 <h5 class="card-title">Torta Carrot Cake</h5>
                 <p class="card-text">Bizcocho de zanahoria y nueces rellena con crema de queso crema y cubierta con crema chantilly.
@@ -211,7 +212,8 @@
               </div>
             </div>
             <div class="card custom-card" style="width: 18rem;">
-              <img class="card-img-top" src="./assets/img/productos/_31.jpg" alt="Card image cap" style="object-fit: contain;">
+              <img class="card-img-top" src="./assets/img/productos/_31.jpg" 
+              alt="Card image cap" style="object-fit: fill;">
               <div class="card-body">
                 <h5 class="card-title">Torta LaBelería</h5>
                 <p class="card-text">Torta de bizcocho y masa choux rellena con manjar y crema pastelera, cubierta con crema chantilly y decorada con profiteroles rellenos.</p>
@@ -220,8 +222,9 @@
                 </div>
               </div>
             </div>
-            <div class="card custom-card me-5" style="width: 18rem;">
-              <img class="card-img-top" src="./assets/img/productos/_32.jpg" alt="Card image cap" style="object-fit: contain;">
+            <div class="card custom-card me-5" style="width: 18rem; margin-right: 20px;">
+              <img class="card-img-top" src="./assets/img/productos/_32.jpg" alt="Card image cap" 
+              style="object-fit: fill;">
               <div class="card-body">
                 <h5 class="card-title">Torta Mil Hojas Manjar</h5>
                 <p class="card-text">Milhojas rellena con manjar y cubierta con chantilly de manjar.
@@ -267,9 +270,11 @@
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
+      
       <a class="carousel-control-prev" data-bs-target="#carousel-tortas" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -309,7 +314,7 @@
 
   <section style="background-image: url('https://images.unsplash.com/photo-1586999768265-24af89630739?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80');
    background-size: cover; background-position: center center; color:rgba(88, 46, 7, 1);">
-    <div class="container-fluid py-5">
+    <div class="container-fluid" style="padding-top: 70px; padding-bottom: 70px;">
       <div class="row">
         <div class="col-md-6">
           <div class="overlay p-5">
@@ -328,8 +333,8 @@
     </div>
   </section>
   
-  <section style="height: 50vh;">
-    <div class="container d-flex justify-content-center" style="height: 20vh; margin-top: 10%; margin-bottom: 10%;">
+  <section style="height: 45vh; display: flex; align-items: center;" id="contacto">
+    <div class="container d-flex justify-content-center" style="width: 100%;">
       <div class="row align-items-center">
         <div class="col text-end pe-5" 
         style="display: flex; align-items: center; border-right: solid 4px #E1AA1C; height: 100px;">
@@ -337,9 +342,9 @@
         </div>
     
         <div class="col ps-5 text-center pt-5" style="max-width: 800px; white-space: nowrap;">
-          <p style="line-height: 30px;">Hamburgo 671</p>
-          <p> Esquina Simón Bolivar. Ñuñoa. Stripcenter Vivo</p>
-          <p>+569 989089289</p>
+          <p style="line-height: 10px;">Hamburgo 671</p>
+          <p style="line-height: 10px;"> Esquina Simón Bolivar. Ñuñoa. Stripcenter Vivo</p>
+          <p style="line-height: 10px;">+569 989089289</p>
           <div class="text-center">
             <a href="#ver-mapa" class="btn custom-button-ubicacion px-4" >Ver Mapa</a>
           </div>
@@ -353,13 +358,20 @@
     <div class="image-container">
       <div class="image-left">
           <h2 class="title">HORARIO DE ATENCIÓN</h2>
-          <div class="schedule">
+          <div class="container mb-1">
+          <div class="row"> 
+            <div class="col mb-1">
+              <div class="schedule">
               <p>MARTES A VIERNES : 9:30 - 20:00 HRS</p>
               <p>SÁBADO : 10:00 - 20:00 HRS</p>
               <p>DOMINGO : 11:00 - 14:00 HRS</p>
               <div class="text-center">
                 <button class="btn custom-button-contacto">Contáctanos</button>              </div>
+              </div>
+              </div>
           </div>
+        </div>
+
       </div>
       <div class="image-right"></div>
   </div>
