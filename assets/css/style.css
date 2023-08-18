@@ -62,9 +62,9 @@ naranjo: #fa9607 */
 
 
   .custom-card {
-    height: auto !important; /* Cambia esto al alto que desees */
+     /* Cambia esto al alto que desees */
     border: 4px solid #24140c !important; /* Cambia "2px" al tamaño del borde que desees y "#ff0000" al color que desees */
-    max-height: 540px;
+    height: 560px !important;
   }
 
   .custom-button {
