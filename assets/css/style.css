@@ -64,7 +64,7 @@ naranjo: #fa9607 */
   .custom-card {
     height: auto !important; /* Cambia esto al alto que desees */
     border: 4px solid #24140c !important; /* Cambia "2px" al tamaño del borde que desees y "#ff0000" al color que desees */
-    max-height: 500px;
+    max-height: 540px;
   }
 
   .custom-button {
@@ -159,6 +159,8 @@ naranjo: #fa9607 */
 
   .card-img-top {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: fill;
+    max-height: 286px;
   }
 
   .container-fluid.centered-content {
@@ -232,7 +234,7 @@ naranjo: #fa9607 */
 }
 
 .carousel-control-next {
-  right: -20px !important; /* Move 50 pixels to the right */
+  right: -80px !important; /* Move 50 pixels to the right */
   margin-right: 0 !important;
   padding-right: 0 !important;
   top: 20px; /* Move 20 pixels down */
