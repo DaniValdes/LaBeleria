@@ -202,6 +202,14 @@ naranjo: #fa9607 */
     }
 }
   
+@media (max-width: 768px) {
+  .location {
+    margin-top: 100px;    
+  }
+}
+
+
+
   .custom-button-ubicacion {
     background-color: #ff0000;
     border-color: #fa9607 !important; /* Cambia esto al color que desees */
