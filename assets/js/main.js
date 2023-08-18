@@ -13,7 +13,7 @@ $(document).ready(function() {
         if (scroll > carouselOffset) {
             console.log("Changing navbar color"); 
             $(".navbar").removeClass('bg-transparent'); // Removemos la clase bg-transparent
-            $(".navbar").css("background-color", "#582E07");
+            $(".navbar").css("background-color", "#24140c");
             $(".nav-link").css("color", "#FBEEE3");
         } else {
             console.log("Resetting navbar color"); 
@@ -26,4 +26,4 @@ $(document).ready(function() {
 
 
 
-
+//#24150a y #24140c 

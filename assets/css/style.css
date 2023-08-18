@@ -1,6 +1,12 @@
+/* paleta: 
+cafe: #24140c
+crema: #FAE2C8 
+naranjo: #fa9607 */
+
+
 * {
     font-family: 'Homenaje', sans-serif;
-    color: #582E07;
+    color: #24140c;
 }
 
 .navbar {
@@ -29,7 +35,7 @@
   }
 
   .carousel-indicators .active {
-    background-color: #E1AA1C !important;
+    background-color: #fa9607 !important;
   }
   
   h1 {
@@ -42,7 +48,7 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .navbar .nav-item .nav-link {
@@ -51,27 +57,27 @@
 }
 
 .nav-link {
-    color: #FBEEE3 !important;
+    color: #FAE2C8 !important;
 }
 
 
   .custom-card {
     height: auto !important; /* Cambia esto al alto que desees */
-    border: 4px solid #582E07 !important; /* Cambia "2px" al tamaño del borde que desees y "#ff0000" al color que desees */
+    border: 4px solid #24140c !important; /* Cambia "2px" al tamaño del borde que desees y "#ff0000" al color que desees */
     max-height: 500px;
   }
 
   .custom-button {
     background-color: #ff0000;
-    border-color: #582E07 !important; /* Cambia esto al color que desees */
+    border-color: #24140c !important; /* Cambia esto al color que desees */
     position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
     top: 10px; /* Cambia esto para mover el botón hacia abajo */
   }
 
   .custom-button-pide {
     background-color: #ffffff !important;
-    color: #E1AA1C !important;
-    border-color: #E1AA1C !important; /* Cambia esto al color que desees */
+    color: #fa9607 !important;
+    border-color: #fa9607 !important; /* Cambia esto al color que desees */
     position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
     border-radius: 0% !important;
     line-height: 55px;
@@ -80,14 +86,14 @@
 
   .custom-button-up {
     background-color: #ff0000;
-    border-color: #582E07 !important; /* Cambia esto al color que desees */
+    border-color: #24140c !important; /* Cambia esto al color que desees */
     position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
     top: -20px !important;  /* Cambia esto para mover el botón hacia abajo */
   }
   
   .card-title {
-    background-color: #582E07;
-    color: #FBEEE3 !important;
+    background-color: #24140c;
+    color: #FAE2C8 !important;
     padding-left: 12px;
     margin-left: -18px;
     margin-right: 80px;
@@ -106,7 +112,7 @@
   .carousel-control-next::before,
   .carousel-control-prev::before {
     content: "‹"; /* Agrega una nueva flecha (puedes usar cualquier otro símbolo o imagen que desees) */
-    color: #582E07; /* Cambia el color aquí */
+    color: #24140c; /* Cambia el color aquí */
     font-size: 70px; /* Cambia el tamaño aquí */
     display: inline-block;
   }
@@ -116,11 +122,11 @@
   }
   
   .navbar.scrolled {
-    background-color: #582E07 !important;
+    background-color: #24140c !important;
   }
   
   .navbar.scrolled .nav-link {
-    color: #FBEEE3 !important;
+    color: #FAE2C8 !important;
   }
 
   .overlay {
@@ -133,7 +139,7 @@
   
   .custom-button-ubicacion {
     background-color: #ff0000;
-    border-color: #E1AA1C !important; /* Cambia esto al color que desees */
+    border-color: #fa9607 !important; /* Cambia esto al color que desees */
     position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
     top: 10px; /* Cambia esto para mover el botón hacia abajo */
     border-radius: 0% !important;
@@ -141,20 +147,26 @@
   }
 
   .custom-button-contacto {
-    background-color: #582E07 !important;
-    border-color: #582E07 !important; /* Cambia esto al color que desees */
+    background-color: #24140c !important;
+    border-color: #24140c !important; /* Cambia esto al color que desees */
     position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
     top: 10px; /* Cambia esto para mover el botón hacia abajo */
     border-radius: 0% !important;
     font-style: bold;
-    color: #FBEEE3 !important;
+    color: #FAE2C8 !important;
+    font-size: 20px !important;
   }
 
   .card-img-top {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
-
+  .container-fluid.centered-content {
+    height: auto;
+    /* Estos dos estilos son opcionales, pero ayudarán a asegurar que el contenido no se expanda demasiado si la sección crece en altura */
+    min-height: 0; /* Evita que el contenedor se expanda más allá de su contenido */
+    max-height: 100%; /* Asegura que el contenedor nunca exceda la altura de la sección */
+}
 
   /* HORARIO DE ATENCION */
   .image-container {
@@ -184,7 +196,7 @@
     top: 10%; /* Ajusta estas posiciones según tus necesidades */
     left: 10%;
     z-index: 1;
-    background-color: #582E07;
+    background-color: #24140c;
     margin-left: -100px;
     padding-left: 80px;
     padding-right: 20px;
@@ -206,11 +218,11 @@
 
 /* PRODUCTOS */
 .nombre-productos {
-  background-color: #E1AA1C !important
+  background-color: #fa9607 !important
 }
 
 .border-bottom-custom {
-  border-bottom: 2px solid #e1aa1c;
+  border-bottom: 2px solid #fa9607;
   width: 100%;
 }
 
@@ -233,7 +245,6 @@
 
 /* FOOTER */
 footer {
-  background-color: #582E07;
-  height: 50vh;
-  color: #FBEEE3;
+  background-color: /* #24140c */ #24140c;
+  color: #FAE2C8;
 }
