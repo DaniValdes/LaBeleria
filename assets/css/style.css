@@ -35,6 +35,29 @@ naranjo: #fa9607 */
   margin: 0;
 }
 
+/* Estilo para el contenedor del menú desplegable */
+.dropdown-menu {
+  background-color: transparent !important;  /* Fondo transparente */
+  border: none !important;                    /* Sin bordes */
+  box-shadow: none !important;               /* Sin sombra */
+}
+
+/* Estilo para los ítems del menú desplegable */
+.dropdown-item {
+  padding: 10px 15px;              /* Espaciado interno */
+  font-size: 16px;                 /* Tamaño de letra */
+  color: #FAE2C8 !important;                 /* Color de letra */
+  border: none;                   /* Sin bordes */
+  background-color: transparent;  /* Fondo transparente */
+}
+
+/* Eliminar el efecto de fondo al pasar el mouse por defecto de Bootstrap */
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #FAE2C8;                 /* Mantener el mismo color al pasar el mouse */
+  text-decoration: none;          /* Sin subrayado al pasar el mouse */
+  background-color: transparent;  /* Fondo transparente al pasar el mouse */
+}
+
 
 .carousel-indicators button {
     width: 22px !important; 
