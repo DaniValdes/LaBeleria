@@ -25,7 +25,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top"
   style="background-color: #24140c !important">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand" href="../../index.html">
         <img src="../../assets/img/LaBelería Golden Logo 800x600-rez.png" 
         alt="Logo" width="auto" height="60">
@@ -43,7 +43,7 @@
             <a class="nav-link" href="https://menu.fu.do/labeleriacafeypasteleria">CATÁLOGO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">CONTACTO</a>
+            <a class="nav-link" href="../../index.html#contacto">CONTACTO</a>
           </li>
         </ul>
       </div>
@@ -51,14 +51,14 @@
   </nav>
 
 
-  <section class="producto-categorias" style="margin-top: 100px; margin-bottom: 70px">
+  <section class="producto-categorias desktop-hidden" style="margin-top: 100px; margin-bottom: 70px">
     <div class="container">
       <div class="row text-center">
         <div class="col mx-1"> 
          <h4>PASTELES</h4> 
         </div>
         <div class="col mx-1">
-          <h4>TORTAS</h4></div>
+          <h4 style="color: #fa9607;">TORTAS</h4></div>
         <div class="col mx-1">
           <h4>PIZZAS</h4></div>
         <div class="col mx-1">
@@ -67,30 +67,49 @@
     </div>
   </section>
 
-<section class="producto-torta">
-<div class="container">
-  <div class="row">
-    <div class="col-6">
-      <img src="../../assets/img/productos/_32.jpg" alt="" style="width: 90%;">
+  <section class="producto-torta mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Imagen -->
+            <div class="col-12 col-md-6 mb-4">
+                <img src="../../assets/img/productos/_32.jpg" alt="" class="img-fluid" style="max-width: 90%; width: 100%;">
+            </div>
+
+            <!-- Texto (Título, Descripción, Cantidad de Personas) -->
+            <div class="col-12 col-md-6 text-center text-md-start"> 
+                <!-- Título de la torta - Solo visible en escritorio -->
+                <div class="d-none d-md-block mb-4">
+                    <p 
+                    class="ps-md-2"
+                    style="background-color: #fa9607; 
+                    font-size: 32px;">TORTA MIL HOJAS MANJAR</p>
+                </div>
+
+                <!-- Título de la torta - Se muestra primero en móviles -->
+                <div class="d-md-none mb-4">
+                    <p style="background-color: #fa9607; font-size: 32px;">TORTA MIL HOJAS MANJAR</p>
+                </div>
+                
+                <!-- Descripción -->
+                <div class="border-bottom-custom py-3">
+                    <h4>Descripción: Milhojas rellena con manjar y cubierta con chantilly de manjar.</h4>
+                </div>
+                
+                <!-- Cantidad de personas -->
+                <div class="py-3">
+                    <h4>Cantidad de personas: 15/20/30 Personas</h4>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-6 text-center">    
-      <div>
-        <p style="background-color: #e1aa1c; width: 60%; font-size: 32px;">TORTA MIL HOJAS MANJAR</p>
-      </div>
-      <div class="text-start border-bottom-custom py-3">
-        <h4 >Descripción: Milhojas rellena con manjar y cubierta con chantilly de manjar.</h4>
-      </div>
-      <div class="text-start py-3">
-        <h4>Cantidad de personas: 15/20/30 Personas</h4>
-      </div>
-    </div>
-  </div>
-</div>
 </section>
 
+
+
+
 <section class="container my-5 py-5">
-  <div class="row align-items-center">
-    <div class="col">
+  <div class="row align-items-center text-center  text-md-start">
+    <div class="col ">
       <h3>CÓMO COMPRAR</h3>
       <h4>Puedes hacer tu pedido accediendo al siguiente enlace, 
         donde podrás seleccionar tú torta preferida, el tamaño, y 
@@ -124,25 +143,18 @@
 
 
 
-<section style="background-image: url(../../assets/img/portada_1.jpg);
-background-size: 100% 140%; 
-background-position: top center; 
-background-repeat: no-repeat; color: rgba(88, 46, 7, 1); height: 60vh;">
-
-
-
-  <div class="container-fluid" 
-  style="padding-top: 100px; padding-bottom: 70px;">
+<section class="custom-section">
+  <div class="container-fluid" style="padding-top: 100px; padding-bottom: 70px;">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-12 col-md-6">
         <div class="overlay p-5">
-          <h2 style="color: rgba(88, 46, 7, 1);">Personaliza tu torta</h2>
+          <h2 style="color: #24140c;">Personaliza tu torta</h2>
           <p>Descripción acerca de personalizar tu torta.</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-12 col-md-6">
         <div class="overlay p-5">
-          <h2 style="color: rgba(88, 46, 7, 1);">Haz tu pedido</h2>
+          <h2 style="color: #24140c;">Haz tu pedido</h2>
           <p><i class="fas fa-phone"></i> Número de teléfono</p>
           <button class="btn custom-button-contacto" style="font-size: 20px !important;">Contáctanos</button>
         </div>
@@ -152,33 +164,32 @@ background-repeat: no-repeat; color: rgba(88, 46, 7, 1); height: 60vh;">
 </section>
 
 
-<section style="height: 30vh; display: flex; align-items: center;" id="contacto" >
+
+<section style="height: 30vh; display: flex; align-items: center;" id="contacto">
   <div class="container-fluid centered-content">
     <div class="row align-items-center">
-      <div class="col text-center" 
-      style="display: flex; 
-             justify-content: center; 
-             align-items: center; 
-             border-right: solid 4px #fa9607; 
-             height: 100px;">
-     <h2><i class="fa-solid fa-location-dot px-3"></i>UBICACIÓN</h2>
- </div>
-  
-      <div class="col ps-5 text-center" 
-      style="white-space: nowrap;">
+      <div class="col-12 col-md text-center" 
+           style="display: flex; 
+                  justify-content: center; 
+                  align-items: center; 
+                  border-right: solid 4px #fa9607; 
+                  height: 100px;">
+        <h2><i class="fa-solid fa-location-dot px-3"></i>UBICACIÓN</h2>
+      </div>
+      <div class="col-12 col-md ps-5 text-center w-100">
         <p style="line-height: 10px; font-size: 20px;">Hamburgo 671</p>
         <p style="line-height: 10px; font-size: 20px;">Esquina Simón Bolivar. Ñuñoa. Stripcenter Vivo</p>
-        <p style="line-height: 10px; font-size: 18px;">+569 989089289</p>
+        <p style="line-height: 10px; font-size: 20px;">+569 989089289</p>
       </div>
-
-      <div class="col">
+      <div class="col-12 col-md">
         <div class="text-center pb-4">
-          <a href="#ver-mapa" class="btn custom-button-ubicacion px-4" style="font-size: 20px;">Ver Mapa</a>
+          <a href="https://goo.gl/maps/tEvm8FBenpdMwSuc9" class="btn custom-button-ubicacion px-4" style="font-size: 20px;">Ver Mapa</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 

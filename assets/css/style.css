@@ -20,6 +20,22 @@ naranjo: #fa9607 */
     font-family: 'Cormorant Unicase', serif;
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: 
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(250, 226, 200)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #FAE2C8 !important;
+  border-width: 2px !important;
+}
+
+.navbar-toggler {
+  margin: 0;
+}
+
+
 .carousel-indicators button {
     width: 22px !important; 
     height: 22px !important;
@@ -136,6 +152,13 @@ naranjo: #fa9607 */
     margin: 0 auto; /* centra el overlay horizontalmente en el contenedor padre */
     height: 200px;
   }
+
+  @media (max-width: 768px) {
+    .overlay {
+        width: 100%; /* en móviles, el ancho será del 100% */
+        margin: 0; /* quitar margen para que ocupe todo el ancho */
+    }
+}
   
   .custom-button-ubicacion {
     background-color: #ff0000;
@@ -213,6 +236,28 @@ naranjo: #fa9607 */
     width: 50%;
     padding: 20px;
     z-index: 1;
+}
+
+/* Estilos para dispositivos con resoluciones más grandes que 768px */
+@media (min-width: 769px) {
+  .custom-section {
+      background-image: url(../../assets/img/portada_1.jpg);
+      background-size: 100% 140%;
+      background-position: top center;
+      background-repeat: no-repeat;
+      color: #24140c;
+      height: 60vh;
+  }
+}
+
+
+/* Estilos para dispositivos con resoluciones menores o iguales a 768px */
+@media (max-width: 768px) {
+  .custom-section {
+      background-image: none;
+      color: #24140c;
+      height: 60vh;
+  }
 }
 
 
