@@ -77,6 +77,25 @@ naranjo: #fa9607 */
 }
 
 
+/* Por defecto, esconde el carousel para dispositivos md */
+#carousel-tortas-md {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* En dispositivos md, muestra el carousel para md y esconde el móvil */
+  #carousel-tortas-md {
+      display: block;
+  }
+
+  #carousel-tortas-xs {
+      display: none;
+  }
+
+  /* Si necesitas estilos adicionales específicos para md, agrégales aquí */
+}
+
+
   .custom-card {
      /* Cambia esto al alto que desees */
     border: 4px solid #24140c !important; /* Cambia "2px" al tamaño del borde que desees y "#ff0000" al color que desees */
@@ -196,6 +215,8 @@ naranjo: #fa9607 */
   /* HORARIO DE ATENCION */
   .image-container {
     display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+
     width: 100%;
 }
 
@@ -236,6 +257,24 @@ naranjo: #fa9607 */
     width: 50%;
     padding: 20px;
     z-index: 1;
+}
+
+/* Estilos para móviles */
+@media (max-width: 768px) {
+  .image-left, .image-right {
+      width: 100%; /* En móviles, cada columna ocupa el 100% del ancho */
+      height: auto;
+  }
+
+  .title, .schedule {
+      position: relative; /* Cambiar la posición a relativa para no superponer */
+      top: auto;
+      left: auto;
+      width: 100%;
+      margin-left: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
 }
 
 /* Estilos para dispositivos con resoluciones más grandes que 768px */
@@ -284,6 +323,19 @@ naranjo: #fa9607 */
   padding-right: 0 !important;
   top: 20px; /* Move 20 pixels down */
 }
+
+@media (max-width: 767px) {
+  .carousel-control-next {
+    right: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-control-prev {
+    left: 0 !important;
+  }
+}
+
 
 .carousel-control-prev, .carousel-control-next {
   position: absolute;
