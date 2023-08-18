@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaBelería</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Homenaje&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <!--   FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/5298658fa2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top"
+  style="background-color: #24140c !important">
+    <div class="container">
+      <a class="navbar-brand" href="../../index.html">
+        <img src="../../assets/img/LaBelería Golden Logo 800x600-rez.png" 
+        alt="Logo" width="auto" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="javascript:void(0)" 
+            id="navbarDropdownMenuLink" 
+            role="button" data-toggle="dropdown" 
+            aria-haspopup="true" aria-expanded="false">
+              PRODUCTOS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="">CAFE</a>
+              <a class="dropdown-item" href="">DULCES ARABES</a>
+              <a class="dropdown-item" href="">VEGANO, SIN GLUTEN</a>
+              <a class="dropdown-item" href="../../index.html">TORTAS</a>
+              <a class="dropdown-item" href="">PASTELES</a>
+              <a class="dropdown-item" href="">PIZZAS</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://menu.fu.do/labeleriacafeypasteleria">PIDE AQUÍ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html#contacto">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="producto-categorias desktop-hidden" style="margin-top: 100px; margin-bottom: 70px">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col mx-1"> 
+         <h4>PASTELES</h4> 
+        </div>
+        <div class="col mx-1">
+          <h4 style="color: #fa9607;">TORTAS</h4></div>
+        <div class="col mx-1">
+          <h4>PIZZAS</h4></div>
+        <div class="col mx-1">
+          <h4>CAFETERÍA</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="producto-torta mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Imagen -->
+            <div class="col-12 col-md-6 mb-4">
+                <img src="../../assets/img/productos/_32.jpg" alt="" class="img-fluid" style="max-width: 90%; width: 100%;">
+            </div>
+
+            <!-- Texto (Título, Descripción, Cantidad de Personas) -->
+            <div class="col-12 col-md-6 text-center text-md-start"> 
+                <!-- Título de la torta - Solo visible en escritorio -->
+                <div class="d-none d-md-block mb-4">
+                    <p 
+                    class="ps-md-2"
+                    style="background-color: #fa9607; 
+                    font-size: 32px;">TORTA MIL HOJAS MANJAR</p>
+                </div>
+
+                <!-- Título de la torta - Se muestra primero en móviles -->
+                <div class="d-md-none mb-4">
+                    <p style="background-color: #fa9607; font-size: 32px;">TORTA MIL HOJAS MANJAR</p>
+                </div>
+                
+                <!-- Descripción -->
+                <div class="border-bottom-custom py-3">
+                    <h4>Descripción: Milhojas rellena con manjar y cubierta con chantilly de manjar.</h4>
+                </div>
+                
+                <!-- Cantidad de personas -->
+                <div class="py-3">
+                    <h4>Cantidad de personas: 15/20/30 Personas</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container my-5 py-5">
+  <div class="row align-items-center text-center  text-md-start">
+    <div class="col ">
+      <h3>CÓMO COMPRAR</h3>
+      <h4>Puedes hacer tu pedido accediendo al siguiente enlace, 
+        donde podrás seleccionar tú torta preferida, el tamaño, y 
+        podrás retirar en nuestro local.</h4>
+    </div>
+    <div class="col-12 col-sm-4 text-sm-right mt-0 mt-sm-0 text-center">
+      <a href="https://menu.fu.do/labeleriacafeypasteleria" 
+      class="btn custom-button-pide">Hacer pedido
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="container justify-content-center text-center mb-5 pb-5">
+  <h3 class="mb-5">TAMBIÉN TE PODRÍA INTERESAR</h3>
+  <div class="row d-flex">
+  <div class="col-md-4 "> 
+    <img src="../../assets/img/productos/_30.jpg" alt="" style="width: 80%;">
+    <h4>Torta Carrot Cake</h4>
+  </div>
+  <div class="col-md-4 "> 
+    <img src="../../assets/img/productos/_30.jpg" alt="" style="width: 80%;">
+    <h4>Torta Carrot Cake</h4>
+  </div>
+  <div class="col-md-4 "> 
+    <img src="../../assets/img/productos/_30.jpg" alt="" style="width: 80%;">
+    <h4>Torta Carrot Cake</h4>
+  </div>
+</div>
+</section>
+
+
+
+<section class="custom-section">
+  <div class="container-fluid" style="padding-top: 100px; padding-bottom: 70px;">
+    <div class="row text-center text-md-start">
+      <div class="col-12 col-md-6">
+        <div class="overlay p-5">
+          <h2 style="color: #24140c;">Personaliza tu torta</h2>
+          <p>Descripción acerca de personalizar tu torta.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="overlay p-5">
+          <h2 style="color: #24140c;">Haz tu pedido</h2>
+          <p><i class="fas fa-phone"></i> Número de teléfono</p>
+          <button class="btn custom-button-contacto" style="font-size: 20px !important;">Contáctanos</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section style="height: 30vh; display: flex; align-items: center;" id="contacto">
+  <div class="container-fluid centered-content">
+    <div class="row align-items-center">
+      <div class="col-12 col-md text-center" 
+           style="display: flex; 
+                  justify-content: center; 
+                  align-items: center; 
+                  border-right: solid 4px #fa9607; 
+                  height: 100px;">
+        <h2><i class="fa-solid fa-location-dot px-3"></i>UBICACIÓN</h2>
+      </div>
+      <div class="col-12 col-md ps-md-5 text-center w-100">
+        <p style=" font-size: 20px;">Hamburgo 671</p>
+        <p style=" font-size: 20px;">Esquina Simón Bolivar. Ñuñoa. Stripcenter Vivo</p>
+        <p style=" font-size: 20px;">+569 989089289</p>
+      </div>
+      <div class="col-12 col-md">
+        <div class="text-center pb-4">
+          <a href="https://goo.gl/maps/tEvm8FBenpdMwSuc9" class="btn custom-button-ubicacion px-4" style="font-size: 20px;">Ver Mapa</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="location">
+  <div class="image-container">
+    <div class="image-left">
+        <h2 class="title" 
+        style="height: 55px;
+         padding-top: 8px;
+         padding-right: 40px;">HORARIO DE ATENCIÓN</h2>
+        <div class="container mb-1">
+        <div class="row text-center text-md-start"> 
+          <div class="col mb-1">
+            <div class="schedule">
+            <p>MARTES A VIERNES : 9:30 - 20:00 HRS</p>
+            <p>SÁBADO : 10:00 - 20:00 HRS</p>
+            <p>DOMINGO : 11:00 - 14:00 HRS</p>
+            <div class="text-center">
+              <button class="btn custom-button-contacto">Contáctanos</button>              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="image-right"></div>
+</div>
+</section>
+
+
+<footer >
+<div class="container"> 
+  <div class="row pt-5 text-center">
+    <div class="col-4"></div>
+  </div>
+  <div class="row text-center pt-3">
+    <div class="col-12 col-md-4"><h3 style="color: #fa9607;">PRODUCTOS</h3></div>
+    <div class="col-12 col-md-4"><h3 style="color: #fa9607;">PEDIR AQUÍ</h3></div>
+    <div class="col-12 col-md-4"><h3 style="color: #fa9607;">CONTACTO</h3></div>
+</div>
+
+  <div class="row text-center">
+    <i class="fa-brands fa-instagram py-3" style="color: #FAE2C8; font-size: 40px;"></i>
+    <p style="color: #FAE2C8; text-align: center;">2023 LaBelería. Todos los derechos reservados.</p>
+
+  </div>
+  
+
+</div>
+
+</footer>
+
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- JS -->
+  <script src="../../assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+/* paleta: 
+cafe: #24140c
+crema: #FAE2C8 
+naranjo: #fa9607 */
+
+
+* {
+    font-family: 'Homenaje', sans-serif;
+    color: #24140c;
+}
+
+.navbar {
+    z-index: 1000;
+}
+.navbar-brand {
+  max-height: 60px; /* Elimina el relleno alrededor del logo */
+}
+
+.font-cormorant {
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: 
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(250, 226, 200)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #FAE2C8 !important;
+  border-width: 2px !important;
+}
+
+.navbar-toggler {
+  margin: 0;
+}
+
+/* Estilo para el contenedor del menú desplegable */
+.dropdown-menu {
+  background-color: transparent !important;  /* Fondo transparente */
+  border: none !important;                    /* Sin bordes */
+  box-shadow: none !important;               /* Sin sombra */
+}
+
+/* Estilo para los ítems del menú desplegable */
+.dropdown-item {
+  padding: 10px 15px;              /* Espaciado interno */
+  font-size: 16px;                 /* Tamaño de letra */
+  color: #FAE2C8 !important;                 /* Color de letra */
+  border: none;                   /* Sin bordes */
+  background-color: transparent;  /* Fondo transparente */
+}
+
+/* Eliminar el efecto de fondo al pasar el mouse por defecto de Bootstrap */
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #FAE2C8;                 /* Mantener el mismo color al pasar el mouse */
+  text-decoration: none;          /* Sin subrayado al pasar el mouse */
+  background-color: transparent;  /* Fondo transparente al pasar el mouse */
+}
+
+
+.carousel-indicators button {
+    width: 22px !important; 
+    height: 22px !important;
+    margin: 20px !important;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 9px 4px 0px #00000040;
+  }
+  
+  .carousel-inner img {
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .carousel-indicators .active {
+    background-color: #fa9607 !important;
+  }
+  
+  h1 {
+    font-size: 64px !important;
+    font-weight: 600 !important;
+  }
+
+  h2 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .navbar .nav-item .nav-link {
+    font-size: 24px;
+    margin-right: 100px;
+}
+
+.nav-link {
+    color: #FAE2C8 !important;
+}
+
+
+/* Por defecto, esconde el carousel para dispositivos md */
+#carousel-tortas-md {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* En dispositivos md, muestra el carousel para md y esconde el móvil */
+  #carousel-tortas-md {
+      display: block;
+  }
+
+  #carousel-tortas-xs {
+      display: none;
+  }
+
+  /* Si necesitas estilos adicionales específicos para md, agrégales aquí */
+}
+
+
+  .custom-card {
+     /* Cambia esto al alto que desees */
+    border: 4px solid #24140c !important; /* Cambia "2px" al tamaño del borde que desees y "#ff0000" al color que desees */
+    height: 560px !important;
+  }
+
+  .custom-button {
+    background-color: #ff0000;
+    border-color: #24140c !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    top: 10px; /* Cambia esto para mover el botón hacia abajo */
+  }
+
+  .custom-button-pide {
+    background-color: #ffffff !important;
+    color: #fa9607 !important;
+    border-color: #fa9607 !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    border-radius: 0% !important;
+    line-height: 55px;
+    font-size: 24px !important;
+  }
+
+  .custom-button-up {
+    background-color: #ff0000;
+    border-color: #24140c !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    top: -20px !important;  /* Cambia esto para mover el botón hacia abajo */
+  }
+  
+  .card-title {
+    background-color: #24140c;
+    color: #FAE2C8 !important;
+    padding-left: 12px;
+    margin-left: -18px;
+    margin-right: 80px;
+    line-height: 32px;
+  }
+
+  .card {
+    margin: 0 -60px; /* Ajusta el valor según lo que necesites. */
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-image: none !important; /* Elimina las flechas por defecto */
+  }
+  
+  .carousel-control-next::before,
+  .carousel-control-prev::before {
+    content: "‹"; /* Agrega una nueva flecha (puedes usar cualquier otro símbolo o imagen que desees) */
+    color: #24140c; /* Cambia el color aquí */
+    font-size: 70px; /* Cambia el tamaño aquí */
+    display: inline-block;
+  }
+  
+  .carousel-control-next::before {
+    content: "›"; /* Asegúrate de que la flecha "next" apunta en la dirección correcta */
+  }
+  
+  .navbar.scrolled {
+    background-color: #24140c !important;
+  }
+  
+  .navbar.scrolled .nav-link {
+    color: #FAE2C8 !important;
+  }
+
+  .overlay {
+    background-color: rgba(251, 238, 227, 0.7); /* ajusta la opacidad según tus necesidades */
+    color: white;
+    width: 50%; /* establece el ancho del overlay al 80% del contenedor padre */
+    margin: 0 auto; /* centra el overlay horizontalmente en el contenedor padre */
+    height: 200px;
+  }
+
+  @media (max-width: 768px) {
+    .overlay {
+        width: 100%; /* en móviles, el ancho será del 100% */
+        margin: 0; /* quitar margen para que ocupe todo el ancho */
+    }
+}
+  
+@media (max-width: 768px) {
+  .location {
+    margin-top: 100px;    
+  }
+}
+
+
+
+  .custom-button-ubicacion {
+    background-color: #ff0000;
+    border-color: #fa9607 !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    top: 10px; /* Cambia esto para mover el botón hacia abajo */
+    border-radius: 0% !important;
+    font-style: bold;
+  }
+
+  .custom-button-contacto {
+    background-color: #24140c !important;
+    border-color: #24140c !important; /* Cambia esto al color que desees */
+    position: relative; /* Cambia esto si deseas posicionar absolutamente el botón. Si no es necesario, puedes eliminar esta línea */
+    top: 10px; /* Cambia esto para mover el botón hacia abajo */
+    border-radius: 0% !important;
+    font-style: bold;
+    color: #FAE2C8 !important;
+    font-size: 20px !important;
+  }
+
+  .card-img-top {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: fill;
+    max-height: 286px;
+  }
+
+  .container-fluid.centered-content {
+    height: auto;
+    /* Estos dos estilos son opcionales, pero ayudarán a asegurar que el contenido no se expanda demasiado si la sección crece en altura */
+    min-height: 0; /* Evita que el contenedor se expanda más allá de su contenido */
+    max-height: 100%; /* Asegura que el contenedor nunca exceda la altura de la sección */
+}
+
+  /* HORARIO DE ATENCION */
+  .image-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+
+    width: 100%;
+}
+
+.image-left, .image-right {
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 50vh; /* Puedes ajustar este valor según tus necesidades */
+    position: relative;
+}
+
+.image-left {
+    background-image: url(../img/logo_fondo_1.jpg);
+}
+
+.image-right {
+    background-image: url(../img/entrada_labeleria.png);
+}
+
+.title {
+    color: #ffffff; /* Color del texto del título */
+    position: absolute;
+    top: 10%; /* Ajusta estas posiciones según tus necesidades */
+    left: 10%;
+    z-index: 1;
+    background-color: #24140c;
+    margin-left: -100px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.schedule {
+    background-color: rgba(255,255,255,0.6); /* Fondo blanco con opacidad */
+    color: #000000; /* Color del texto */
+    position: absolute;
+    top: 30%; /* Ajusta estas posiciones según tus necesidades */
+    left: 20%;
+    width: 50%;
+    padding: 20px;
+    z-index: 1;
+}
+
+/* Estilos para móviles */
+@media (max-width: 768px) {
+  .image-left, .image-right {
+      width: 100%; /* En móviles, cada columna ocupa el 100% del ancho */
+      height: auto;
+  }
+
+  .title, .schedule {
+      position: relative; /* Cambiar la posición a relativa para no superponer */
+      top: auto;
+      left: auto;
+      width: 100%;
+      margin-left: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+}
+
+/* Estilos para dispositivos con resoluciones más grandes que 768px */
+@media (min-width: 769px) {
+  .custom-section {
+      background-image: url(../../assets/img/portada_1.jpg);
+      background-size: 100% 140%;
+      background-position: top center;
+      background-repeat: no-repeat;
+      color: #24140c;
+      height: 60vh;
+  }
+}
+
+
+/* Estilos para dispositivos con resoluciones menores o iguales a 768px */
+@media (max-width: 768px) {
+  .custom-section {
+      background-image: none;
+      color: #24140c;
+      height: 60vh;
+  }
+}
+
+
+
+
+/* PRODUCTOS */
+.nombre-productos {
+  background-color: #fa9607 !important
+}
+
+.border-bottom-custom {
+  border-bottom: 2px solid #fa9607;
+  width: 100%;
+}
+
+.carousel-control-prev {
+  left: -50px !important; /* Move 50 pixels to the left */
+  top: 20px; /* Move 20 pixels down */
+}
+
+.carousel-control-next {
+  right: -80px !important; /* Move 50 pixels to the right */
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+  top: 20px; /* Move 20 pixels down */
+}
+
+@media (max-width: 767px) {
+  .carousel-control-next {
+    right: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-control-prev {
+    left: 0 !important;
+  }
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: /* #24140c */ #24140c;
+  color: #FAE2C8;
+}
